@@ -20,7 +20,6 @@ public class ClickAndCollect {
 	public static By CHECKOUT_CONTINUE = By.cssSelector(".center.button.orange");
 	public static By MATERIAL_SELECT =By.cssSelector(".details");
 	
-
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:/Users/user/Documents/Automation/driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
